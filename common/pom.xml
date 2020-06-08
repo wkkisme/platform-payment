@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
 
-        <groupId>com.platform</groupId>
-        <artifactId>payment</artifactId>
+        <groupId>com.platform.payment</groupId>
+        <artifactId>platform-payment</artifactId>
         <version>1.0.0</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>platform-order-common</artifactId>
+    <artifactId>platform-payment-common</artifactId>
 
-    <name>platform-order-common</name>
+    <name>platform-payment-common</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
