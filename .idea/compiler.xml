@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="platform-payment-common" />
+        <module name="platform-payment-dao" />
+        <module name="platform-payment-domain" />
+        <module name="platform-payment-rpc" />
+        <module name="platform-payment-service" />
+        <module name="platfrom-payment-portal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="platform-payment" target="1.8" />
+      <module name="platform-payment-common" target="1.8" />
+      <module name="platform-payment-dao" target="1.8" />
+      <module name="platform-payment-domain" target="1.8" />
+      <module name="platform-payment-rpc" target="1.8" />
+      <module name="platform-payment-service" target="1.8" />
+      <module name="platfrom-payment-portal" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

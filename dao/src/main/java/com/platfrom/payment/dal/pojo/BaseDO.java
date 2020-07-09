@@ -2,6 +2,8 @@ package com.platfrom.payment.dal.pojo;
 
 import io.swagger.annotations.ApiModelProperty;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
 import java.util.Date;
 
 /**
@@ -9,17 +11,25 @@ import java.util.Date;
  */
 public class BaseDO {
 
+    @Id
     @ApiModelProperty(value="id系统id")
     private Long id;
+
+    @Column(name = "creator")
     @ApiModelProperty(value="creator创建者")
     private String creator;
+
+    @Column(name = "gmt_create")
     @ApiModelProperty(value="gmtCreate")
     private Date gmtCreate;
 
+    @Column(name = "gmt_modified")
     private Date gmtModified;
 
+    @Column(name = "modifier")
     private String modifier;
 
+    @Column(name = "is_deleted")
     private Boolean isDeleted;
 
     public Boolean getDeleted() {

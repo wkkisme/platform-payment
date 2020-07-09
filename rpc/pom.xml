@@ -5,8 +5,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>platform-payment-rpc</artifactId>
     <groupId>com.platform.payment</groupId>
+    <artifactId>platform-payment-rpc</artifactId>
     <version>1.0.0</version>
 
 
@@ -19,7 +19,11 @@
     <dependencies>
 
 
-
+        <dependency>
+            <groupId>com.platform.payment</groupId>
+            <artifactId>platform-payment-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
 
     </dependencies>
 

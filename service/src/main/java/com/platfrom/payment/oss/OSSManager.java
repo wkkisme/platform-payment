@@ -30,7 +30,7 @@ import static org.apache.commons.io.FilenameUtils.removeExtension;
  *
  * @author wangkai
  */
-@Component
+//@Component
 public class OSSManager {
 
     @Resource

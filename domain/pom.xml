@@ -84,6 +84,18 @@
             <artifactId>fastjson</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.platform.payment</groupId>
+            <artifactId>platform-payment-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.platform.payment</groupId>
+            <artifactId>platform-payment-dao</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

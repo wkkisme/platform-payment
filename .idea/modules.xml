@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platform-payment.iml" filepath="$PROJECT_DIR$/platform-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/platform-payment-common.iml" filepath="$PROJECT_DIR$/common/platform-payment-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dao/platform-payment-dao.iml" filepath="$PROJECT_DIR$/dao/platform-payment-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/platform-payment-domain.iml" filepath="$PROJECT_DIR$/domain/platform-payment-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc/platform-payment-rpc.iml" filepath="$PROJECT_DIR$/rpc/platform-payment-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/platform-payment-service.iml" filepath="$PROJECT_DIR$/service/platform-payment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/portal/platfrom-payment-portal.iml" filepath="$PROJECT_DIR$/portal/platfrom-payment-portal.iml" />
+    </modules>
+  </component>
+</project>

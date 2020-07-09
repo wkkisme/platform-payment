@@ -1,7 +1,7 @@
 package com.platfrom.payment.common.annotation;
 
 
-import com.platfrom.payment.common.utils.MybatisCriteriaMethodEnum;
+import com.platfrom.payment.common.util.MybatisCriteriaMethodEnum;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

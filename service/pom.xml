@@ -131,10 +131,32 @@
         </dependency>
 
         <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc7</artifactId>
-            <version>12.1.0.2</version>
+            <groupId>com.platform.payment</groupId>
+            <artifactId>platform-payment-rpc</artifactId>
+            <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.platform.payment</groupId>
+            <artifactId>platform-payment-domain</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.platform.payment</groupId>
+            <artifactId>platform-payment-dao</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.platform.payment</groupId>
+            <artifactId>platform-payment-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
+        </dependency>
+
+
 
         <dependency>
             <groupId>commons-fileupload</groupId>
